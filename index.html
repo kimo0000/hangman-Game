@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="hambman Game elzero Web School">
+    <title>Hangman Game</title>
+    <link rel="stylesheet" href="./style.css">
+</head>
+<body>
+
+    <section class="game_container">
+
+         <article class="game_info">
+             <div class="name">Hangman Game</div>
+             <div class="category">
+                 word from: <span></span>
+             </div>
+         </article>
+
+         <hr>
+
+         <article class="row">
+             <div class="hangman_draw">
+                 <div class="the_draw">
+                     <div class="stand"></div>
+                     <div class="hang"></div>
+                     <div class="rope"></div>
+                     <div class="man">
+                         <div class="head"></div>
+                         <div class="body"></div>
+                         <div class="hands"></div>
+                         <div class="legs"></div>
+                     </div>
+                 </div>
+             </div>
+             <div class="letters"></div>
+         </article>
+
+         <hr>
+
+         <article class="letters_guess"></article>
+
+        <audio class="failed" src="audio/failed.mp3" preload="auto"></audio>
+        <audio class="success" src="audio/success.mp3" preload="auto"></audio>
+
+    </section>
+    
+
+    <script src="./app.js"></script>
+</body>
+</html>
